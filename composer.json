@@ -1,0 +1,19 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "ext-ds": "*",
+        "phpunit/phpunit": "^9"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
